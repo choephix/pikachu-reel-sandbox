@@ -6,8 +6,6 @@ import { Main } from './Main';
 
 //import assets from './data/assets.1.json'
 import assets from './data/assets.2.json';
-import * as test from './_/singleton';
-import Service from './service';
 
 const app = new PIXI.Application({
   width: 800,

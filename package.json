@@ -1,13 +1,22 @@
 {
-  "name": "typescript",
-  "version": "0.0.0",
+  "name": "pikachu-reel-sandbox",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@types/dat.gui": "^0.7.5",
     "@types/gsap": "^1.20.2",
     "dat.gui": "^0.7.7",
     "gsap": "^3.5.1",
-    "pixi.js": "^5.3.3",
-    "pixi.js-legacy": "^5.3.3"
+    "pixi.js": "^5.3.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
   }
 }
